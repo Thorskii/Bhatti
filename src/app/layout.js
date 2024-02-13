@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="w-screen h-screen bg-gradient-to-b from-slate-800 to-neutral-900">
+        <div className="w-screen h-screen bg-gradient-to-b from-white to-neutral-300 dark:from-slate-800 dark:to-neutral-900">
           <div className="h-24">
             <Navbar/>
           </div>

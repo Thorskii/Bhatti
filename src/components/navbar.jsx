@@ -14,7 +14,7 @@ const links = [
 const Navbar = () => {
     const [open, setOpen] = useState(false)
     return (
-        <div className="h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-neutral-200">
+        <div className="h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-black dark:text-neutral-200">
             {/* LINKS */}
             <div className="hidden md:flex gap-4 w-1/3">
                 {links.map(link=>(
@@ -39,9 +39,9 @@ const Navbar = () => {
             {/* HAMBURGER MENU */}
             <div className="md:hidden">
                 <button className="w-10 h-8 flex flex-col justify-between z-50 relative" onClick={(()=>setOpen(!open))}>
-                    <div className="w-10 h-1 bg-white rounded"></div>
-                    <div className="w-10 h-1 bg-white rounded"></div>
-                    <div className="w-10 h-1 bg-white rounded"></div>
+                    <div className="w-10 h-1 bg-black dark:bg-white rounded"></div>
+                    <div className="w-10 h-1 bg-black dark:bg-white rounded"></div>
+                    <div className="w-10 h-1 bg-black dark:bg-white rounded"></div>
                 </button>
                 {/* MENU LIST */}
                 {open && (
