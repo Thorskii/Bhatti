@@ -85,7 +85,8 @@ const Navbar = () => {
                     <Image src="/facebook.png" alt="" width={24} height={24}></Image>
                 </Link>
                 <Link href="https://www.linkedin.com/in/gurpreet-bhatti-386291284/">
-                    <Image src="/linkedin.png" alt="" width={24} height={24}></Image>
+                    <Image className="hidden dark:block" src="/linkedinDark.png" alt="" width={24} height={24}></Image>
+                    <Image className="block dark:hidden" src="/linkedin.png" alt="" width={24} height={24}></Image>
                 </Link>
             </div>
             {/* HAMBURGER MENU */}
