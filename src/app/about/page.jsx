@@ -36,17 +36,21 @@ const AboutPage = () => {
                     {/* SKILL TITLE */}
                     <h1 className="font-bold text-2xl">SKILLS</h1>
                     <div className="flex gap-4">
-                        <div className="rounded p-2 text-sm cursor-pointer bg-black text-white dark:text-black dark:bg-slate-300 hover:bg-white hover:text-black">Realtor</div>
-                        <div className="rounded p-2 text-sm cursor-pointer bg-black text-white dark:text-black dark:bg-slate-300 hover:bg-white hover:text-black">Veteran</div>
+                        <div className="rounded p-2 text-sm cursor-pointer bg-black text-white dark:text-black dark:bg-slate-300 hover:bg-white hover:text-black">Engineer</div>
                         <div className="rounded p-2 text-sm cursor-pointer bg-black text-white dark:text-black dark:bg-slate-300 hover:bg-white hover:text-black">Entrepreneur</div>
                         <div className="rounded p-2 text-sm cursor-pointer bg-black text-white dark:text-black dark:bg-slate-300 hover:bg-white hover:text-black">Father</div>
                         <div className="rounded p-2 text-sm cursor-pointer bg-black text-white dark:text-black dark:bg-slate-300 hover:bg-white hover:text-black">Investor</div>
-                        <div className="rounded p-2 text-sm cursor-pointer bg-black text-white dark:text-black dark:bg-slate-300 hover:bg-white hover:text-black">Engineer</div>
+                        <div className="rounded p-2 text-sm cursor-pointer bg-black text-white dark:text-black dark:bg-slate-300 hover:bg-white hover:text-black">Realtor</div>
+                        <div className="rounded p-2 text-sm cursor-pointer bg-black text-white dark:text-black dark:bg-slate-300 hover:bg-white hover:text-black">Veteran</div>
                     </div>
                     <div className=""></div>
                 </div>
                 {/* EXPERIENCE CONTAINER */}
-                <div className="font-bold text-2xl">EXPERIENCE</div>
+                {/* <div className="flex flex-col gap-12 justify-center">
+                    <h1 className="font-bold text-2xl">EXPERIENCE</h1>
+                    <p></p>
+                </div> */}
+
             </div>
             {/* SVG CONTAINER */}
             <div className="hidden"></div>

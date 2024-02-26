@@ -77,7 +77,7 @@ const Navbar = () => {
                 </Link>
             </div>
             {/* SOCIALS */}
-            <div className="hidden md:flex gap-4 w-1/3">
+            <div className="hidden md:flex gap-4 w-1/3 justify-center">
                 <Link href="/">
                     <Image src="/instagram.png" alt="" width={24} height={24}></Image>
                 </Link>
