@@ -10,7 +10,7 @@ const AboutPage = () => {
         transition={{ duration:1 }}
       >
         {/* CONTAINER */}
-        <div className="px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 flex flex-col gap-24 md:gap-32 lg:gap-48 xl:gap-64 text-black dark:text-neutral-200">
+        <div className="h-full overflow-auto lg:flex px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 flex flex-col gap-24 md:gap-32 lg:gap-48 xl:gap-64 text-black dark:text-neutral-200">
             {/* TEXT CONTAINER */}
             <div className="">
                 {/* BIOGRAPHY CONTAINER */}

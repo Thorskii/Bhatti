@@ -9,7 +9,7 @@ const ContactPage = () => {
         animate={{ y:"0%" }} 
         transition={{ duration:1 }}
       >
-        Portfolio
+        
     </motion.div>
     )
 }
