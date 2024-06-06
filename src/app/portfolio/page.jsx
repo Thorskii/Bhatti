@@ -41,7 +41,7 @@ const PortfolioPage = () => {
         animate={{ y:"0%" }} 
         transition={{ duration:1 }}
       >
-      <div className="h-full  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 place-items-center overflow-auto">
+      <div className="h-full  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-4 place-items-center overflow-auto">
       {images.map((imageUrl, index) => (
         <div key={index} className="relative h-64 w-96">
           <Image
