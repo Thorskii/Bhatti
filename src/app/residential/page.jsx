@@ -4,36 +4,15 @@ import Image from 'next/image';
 
 
 const images = [
-  '/1.jpeg',
-  '/2.png',
-  '/3.png',
-  '/4.jpeg',
-  '/5.png',
-  '/7.png',
-  '/8.jpeg',
 ];
 
 const captions = [
-  '202 12th ST Ogden, UT',
-  '150 UINTA DR. Green River, WY',
-  '152 West US Highway40, Vernal, UT',
-  '1977 Dewar Dr. Rock Springs, WY',
-  '3612 W 4700 S WVC, UT',
-  '101 Gateway BLVD Rock Springs, WY',
-  '4212 W Cactus Rd Phoenix, AZ',
 ];
 
 const secondLines = [
-  'SOLD 2024',
-  'SOLD 2024',
-  'SOLD 2024',
-  'SOLD 2023',
-  'SOLD 2020',
-  'SOLD 2023',
-  'SOLD 2023',
 ];
 
-const PortfolioPage = () => {
+const Residential = () => {
     return (
         <motion.div 
         className="h-full" 
@@ -63,4 +42,4 @@ const PortfolioPage = () => {
     )
 }
 
-export default PortfolioPage
+export default Residential

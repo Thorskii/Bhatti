@@ -8,7 +8,8 @@ import { motion } from "framer-motion"
 const links = [
     { url: "/", title: "Home" },
     { url: "/about", title: "About"},
-    { url: "/portfolio", title: "Portfolio"},
+    { url: "/commercial", title: "Commerical"},
+    { url: "/residential", title: "Residential"},
     { url: "/contact", title: "Contact"},
 ];
 
@@ -64,7 +65,7 @@ const Navbar = () => {
         }
     }
     return (
-        <div className="h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-xl text-black dark:text-neutral-200">
+        <div className="h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-12 xl:px-16 text-xl text-black dark:text-neutral-200">
             {/* LINKS */}
             <div className="hidden md:flex gap-4 w-1/3">
                 {links.map(link=>(
