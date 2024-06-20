@@ -25,7 +25,7 @@ const Homepage = () => {
             <p className="md:text-xl">Military precision, engineering insight, and a passion for the outdoors converge in my commitment to guiding clients through their real estate journeys. From high-margin investments to properties tailored for active lifestyles, I leverage diverse experiences to ensure optimal returns. My motto: Precision, Passion, and Personalized Solutions – Making Your Realty Dreams a Reality!</p>
             {/* BUTTONS */}
             <div className="w-full flex gap-4 py-4">
-              <button className="p-4 rounded-lg ring-1 ring-black dark:ring-neutral-200 bg-black dark:bg-slate-300 text-white dark:text-black"><Link href="/portfolio">Portfolio</Link></button>
+              <button className="p-4 rounded-lg ring-1 ring-black dark:ring-neutral-200 bg-black dark:bg-slate-300 text-white dark:text-black"><Link href="/commercial">Portfolio</Link></button>
               <button className="p-4 rounded-lg ring-1 ring-black dark:ring-neutral-200 bg-white dark:bg-slate-700 bg-opacity-40 dark:bg-opacity-40"><Link href="/contact">Contact Me</Link></button>
             </div>
           </div>
